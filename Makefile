@@ -129,53 +129,29 @@ code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-bptree_final.o: bptree_final.cpp.o
-.PHONY : bptree_final.o
+final_solution.o: final_solution.cpp.o
+.PHONY : final_solution.o
 
 # target to build an object file
-bptree_final.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.o
-.PHONY : bptree_final.cpp.o
+final_solution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/final_solution.cpp.o
+.PHONY : final_solution.cpp.o
 
-bptree_final.i: bptree_final.cpp.i
-.PHONY : bptree_final.i
-
-# target to preprocess a source file
-bptree_final.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.i
-.PHONY : bptree_final.cpp.i
-
-bptree_final.s: bptree_final.cpp.s
-.PHONY : bptree_final.s
-
-# target to generate assembly for a file
-bptree_final.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.s
-.PHONY : bptree_final.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
+final_solution.i: final_solution.cpp.i
+.PHONY : final_solution.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.i
-.PHONY : main.cpp.i
+final_solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/final_solution.cpp.i
+.PHONY : final_solution.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+final_solution.s: final_solution.cpp.s
+.PHONY : final_solution.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/main.cpp.s
-.PHONY : main.cpp.s
+final_solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/final_solution.cpp.s
+.PHONY : final_solution.cpp.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... code"
-	@echo "... bptree_final.o"
-	@echo "... bptree_final.i"
-	@echo "... bptree_final.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... final_solution.o"
+	@echo "... final_solution.i"
+	@echo "... final_solution.s"
 .PHONY : help
 
 

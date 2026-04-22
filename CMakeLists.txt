@@ -4,4 +4,4 @@ project(FileStorageBPT)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(code main.cpp bptree_final.cpp bptree_final.h)
+add_executable(code final_solution.cpp)
