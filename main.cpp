@@ -2,13 +2,13 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-#include "bptree_fixed.h"
+#include "bptree_optimized.h"
 
 int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    BPTreeFixed tree("database.db");
+    BPTreeOptimized tree("database.db");
 
     int n;
     std::cin >> n;
