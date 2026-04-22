@@ -1,0 +1,22 @@
+20
+insert book1 100
+insert book1 200
+insert book1 150
+insert book2 300
+insert book2 250
+find book1
+find book2
+find book3
+delete book1 200
+find book1
+delete book2 300
+find book2
+insert book3 400
+insert book3 350
+insert book3 450
+find book3
+delete book1 150
+delete book1 100
+find book1
+insert book4 500
+find book4
