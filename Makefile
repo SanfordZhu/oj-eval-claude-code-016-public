@@ -129,29 +129,29 @@ code/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/build
 .PHONY : code/fast
 
-bptree_optimized.o: bptree_optimized.cpp.o
-.PHONY : bptree_optimized.o
+bptree_final.o: bptree_final.cpp.o
+.PHONY : bptree_final.o
 
 # target to build an object file
-bptree_optimized.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_optimized.cpp.o
-.PHONY : bptree_optimized.cpp.o
+bptree_final.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.o
+.PHONY : bptree_final.cpp.o
 
-bptree_optimized.i: bptree_optimized.cpp.i
-.PHONY : bptree_optimized.i
+bptree_final.i: bptree_final.cpp.i
+.PHONY : bptree_final.i
 
 # target to preprocess a source file
-bptree_optimized.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_optimized.cpp.i
-.PHONY : bptree_optimized.cpp.i
+bptree_final.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.i
+.PHONY : bptree_final.cpp.i
 
-bptree_optimized.s: bptree_optimized.cpp.s
-.PHONY : bptree_optimized.s
+bptree_final.s: bptree_final.cpp.s
+.PHONY : bptree_final.s
 
 # target to generate assembly for a file
-bptree_optimized.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_optimized.cpp.s
-.PHONY : bptree_optimized.cpp.s
+bptree_final.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/code.dir/build.make CMakeFiles/code.dir/bptree_final.cpp.s
+.PHONY : bptree_final.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -186,9 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... code"
-	@echo "... bptree_optimized.o"
-	@echo "... bptree_optimized.i"
-	@echo "... bptree_optimized.s"
+	@echo "... bptree_final.o"
+	@echo "... bptree_final.i"
+	@echo "... bptree_final.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
